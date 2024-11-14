@@ -524,7 +524,7 @@ INTEL_PSTATE_STATUS=passive
 
 #### Battery Stats:
 
-*   `androidboot.fake_battery=true`: AOSP implementation of fake battery status
+*   `androidboot.fake_battery=1`: AOSP implementation of fake battery status
 
 (Available through Android-Generic Add-On & add-ons for Bass builds)
 
@@ -595,7 +595,12 @@ Example:
 
 #### Network & Radio Control Options:
 
-(Available through Android-Generic Add-On & add-ons for Bass)
+##### Bluetooth
+
+We ship recent builds with two Bluetooth HAL's and it defaults to the newest one with BTLE support. For devices that new HAL does not work on, we suggest using the legacy BT HAL. 
+* `BTLINUX_HAL=1`: Use Bluetooth Linux HAL
+
+(Below items are available through Android-Generic Add-On & add-ons for Bass)
 
 Enable/Disable Wireless Devices (Change included only in specialized builds):
 * `LOCKDOWN_WIRELESS_DEVICES`: A kernel level switch to disable all wireless devices. options: 0,1

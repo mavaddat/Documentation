@@ -62,3 +62,7 @@ icon: home
 * [Troubleshooting - Sound](knowledgebase/troubleshooting/sound-issues.md)
 * [Troubleshooting - WiFi](knowledgebase/troubleshooting/wifi-issues.md)
 * [Troubleshooting - Disable touchpad](knowledgebase/troubleshooting/disable-touchpad.md)
+
+## Legal
+
+* [Bliss OS Licensing](legal/licensing.md)
